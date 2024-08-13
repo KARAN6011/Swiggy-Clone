@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    height: 85px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 49, 49);
+    background-color: rgb(244, 244, 245);
+    box-shadow: 3px;
+
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+   
+}
+.offers sup{
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(194, 128, 6);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+   
+}
+.logo select{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 80px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: rgb(244, 244, 245);
+    color: rgb(207, 161, 75);
+    
+}
+.options>div:hover{
+    color: rgb(183, 121, 7);
+}
+
+.options>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.options span{
+    margin: 0px 15px;
+    
+       
+}
+.food-items{
+    padding: 0px 180px;
+    
+}
+.scroll{
+    padding-bottom: 40px;
+    display: flex;
+    border-bottom: 1px solid grey;
+    overflow-y:hidden ;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.scroll>img{
+    height: 200px;
+    width: 180px;
+}
+.food-items>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 15px;
+}
+.order{
+    padding: 20px 180px;
+    box-shadow: 10px;
+}
+.menu{
+    padding: 0px 180px;
+    box-shadow: 10px;
+}
+.list{
+    padding: 0px 180px;
+}
+.filters{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.filters select{
+    padding: 5px 10px;
+    border:none;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+.filters>button{
+    padding: 3px 7px;
+    height: 35px;
+    width: 150px;
+    border:none;
+    font-size: 19px;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+}
+.filters>button,select{
+    box-shadow: 5px 5px 5px black;
+}
+.order>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.menu{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: space-evenly;
+    
+}
+.card1{
+    width: 120px;
+    transition: .3s;
+    
+}
+.thumbnail img{
+    height: 180px;
+    width: 220px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.thumbnail h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    color: white;
+    
+}
+.desc{
+    position: relative;
+    bottom: 20px;
+}
+.thumbnail,.desc{
+    width: 200px;
+    padding-bottom: 20px;
+}
+.card1 :hover{
+    transform: scale(0.95);
+}
+
+.thumbnail h3 b1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    color:black;
+}
+.desc{
+    
+    width: 160px;
+    height: 75px;
+}
+.desc>h4 , .desc>p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.city , .near_me{
+    padding: 0px 120px;
+}
+.city>h1 , .near_me>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
+.city>button , .s1 , .near_me>button {
+    display: inline-block;
+    height: 55px;
+    width: 280px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    box-shadow: none;
+    font-size: 16px;
+    border: none;
+    border: 0.1px solid rgb(215, 211, 211);
+    background-color: rgba(233, 232, 232, 0.244);
+}
+.button9>button{
+    height: 55px;
+    width: 570px;
+    font-size: 15px;
+    margin-left: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+    border: 1px solid rgb(156, 155, 155);
+}
+hr{
+    background-color: grey;
+    margin: 0px 80px;
+}
+button:hover{
+    transform: scale(.98);
+}
+.button{
+    display: inline-block;
+    padding: 0px 50px;
+    justify-content: space-around;
+    
+}
+.button>button{
+    border-radius: 10px;
+    margin: 0px 25px;
+    height: 45px;
+    width: 400px;
+    
+}
+.footer{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+    font-size: 17px;
+    padding:2px 180px;
+    background-color: black;
+    color: rgb(6, 6, 6);
+    margin: 0px;
+    
+}
+.company , .contact , .location , .swig{
+    padding: 40px 60px;
+    height: 400px;
+    width: 180px;
+}
+section h3 , .location>h3{
+    color: rgb(223, 224, 225);
+}
+.company>a , .contact>a , .location>a , .img1>h1 , .swig>p {
+    margin: 10px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(149, 149, 149);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#id1{
+    border: none;
+    background :inherit;
+    box-shadow: none;
+    color: rgb(149, 149, 149);
+}
+.img1{
+    display: flex;
+    
+    align-items: center;
+}
+.swig{
+    padding-left: 0px;
+}
+.img1>img{ 
+    height: 65px;
+}
+.navbar1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 0px;
+    background-color: rgb(237, 236, 236);
+}
+.h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    height: 100px;
+    margin-left: 200px;
+    width: 500px;
+    color: rgb(77, 73, 73);
+}
+.apps{
+    margin-right: 200px;
+}
+img{
+    width: 184px;
+    height: 60px;
+}
